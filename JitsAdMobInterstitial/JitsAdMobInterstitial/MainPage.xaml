@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JitsAdMobInterstitial"
+             x:Class="JitsAdMobInterstitial.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+    	<Label Text="Ouvrir une Interstitiel en cliquant sur le bouton" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="BtnOpen" Text="Ouvrir"></Button>
+    </StackLayout>
+
+</ContentPage>
